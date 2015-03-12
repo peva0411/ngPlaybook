@@ -30,6 +30,7 @@ namespace ngPlaybook.Web
 
                 "~/app/common/common.module.js",
                 "~/app/common/exceptionHandler.js",
+                "~/app/common/interpolatDebug.js",
                 "~/app/common/alerting.service.js",
                 "~/app/common/alerts.directive.js",
 
