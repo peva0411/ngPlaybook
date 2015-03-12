@@ -18,6 +18,13 @@
             model.alertType = alerting.alertTypes[0];
         };
 
+        model.createException = createException;
+
+        function createException() {
+
+            throw new Error("Exception from controller");
+        };
+
     }
 
 })();

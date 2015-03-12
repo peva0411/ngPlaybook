@@ -29,6 +29,7 @@ namespace ngPlaybook.Web
                 "~/Scripts/angular-ui-router.js",
 
                 "~/app/common/common.module.js",
+                "~/app/common/exceptionHandler.js",
                 "~/app/common/alerting.service.js",
                 "~/app/common/alerts.directive.js",
 

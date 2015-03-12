@@ -3,7 +3,7 @@
 
     angular.module('common').factory('alerting', alerting);
 
-    alerting.$inject = [$timeout];
+    alerting.$inject = ['$timeout'];
 
     function alerting($timeout) {
 
