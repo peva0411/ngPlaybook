@@ -7,7 +7,8 @@
     function Admin() {
         var vm = this;
 
-        vm.employees = [{ firstName: "Phil", lastName: "Evans", rating: 1 }];
+        vm.employees = [{ firstName: "Phil", lastName: "Evans", rating: 1 },
+                        {firstName: "Dempsey", lastName:"Dixon", rating:4}];
 
         vm.promote = promote;
 
