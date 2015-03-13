@@ -211,10 +211,15 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\admin\admin.controller.js" />
+    <Content Include="app\admin\admin.html" />
+    <Content Include="app\admin\admin.module.js" />
+    <Content Include="app\admin\admin.routes.js" />
     <Content Include="app\app.js" />
     <Content Include="app\common\alerting.service.js" />
     <Content Include="app\common\alerts.directive.js" />
     <Content Include="app\common\alerts.html" />
+    <Content Include="app\common\alertsDisplay.html" />
     <Content Include="app\common\common.module.js" />
     <Content Include="app\common\exceptionHandler.js" />
     <Content Include="app\common\interpolatDebug.js" />

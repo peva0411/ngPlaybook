@@ -1,4 +1,4 @@
 ﻿(function() {
     'use strict';
-    angular.module('app', ['ui.router', 'common']);
+    angular.module('app', ['ui.router', 'common', 'app.admin']);
 })();

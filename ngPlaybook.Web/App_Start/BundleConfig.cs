@@ -34,6 +34,10 @@ namespace ngPlaybook.Web
                 "~/app/common/alerting.service.js",
                 "~/app/common/alerts.directive.js",
 
+                "~/app/admin/admin.module.js",
+                "~/app/admin/admin.controller.js",
+                "~/app/admin/admin.routes.js",
+
                 "~/app/app.js",
                 "~/app/errorProne.controller.js"));
 
