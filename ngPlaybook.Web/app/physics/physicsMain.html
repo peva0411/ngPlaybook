@@ -1,0 +1,31 @@
+﻿<div class="container">
+    <div class="row" ng-controller="movingObjectController as objects">
+        <div class="col-md-8">
+            <physics-canvas width="600" height="400">
+                <physics-body type="rectangle" body="objects.box1" options="{x:450, y:10, vy:-0.3, width:15, height:15}">
+
+                </physics-body>
+                <physics-body type="rectangle" body="objects.box2" options="{x:250, y:210, vy:-0.3, width:15, height:15}">
+                </physics-body>
+
+                <physics-edge-detection min-x="0" min-y="0" max-x="600" max-y="400" restitution="0.7">
+                </physics-edge-detection>
+
+                <physics-behavior name="constant-acceleration"></physics-behavior>
+                <physics-behavior name="body-impulse-response"></physics-behavior>
+                <physics-behavior name="body-collision-detection"></physics-behavior>
+                <physics-behavior name="sweep-prune"></physics-behavior>
+            </physics-canvas>
+        </div>
+        <div class="col-md-4">
+            <ul class="list-unstyled">
+                <li>
+                    <button class="btn btn-primary" ng-click="objects.kick()">Kick</button>
+                </li>
+                <li>
+                    <input type="number" knob change="objects.resize(value)" min="1" max="100" width="75" value="15" />
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

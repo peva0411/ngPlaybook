@@ -1,0 +1,17 @@
+﻿
+<div ng-controller="editProfileController as model" class="container">
+    
+    <div class="row">
+        <div class="col-md-6">
+            <form name="profileForm" ng-submit="model.submit()" novalidate>
+                <h2>Sign Up Now!</h2>
+                <div forminput>
+                    <label for="username">Your user name:</label>
+                    <input type="text" id="username" name="username"  required placeholder="User name" ng-model="model.user.username"/>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>

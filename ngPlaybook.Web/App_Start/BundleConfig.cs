@@ -27,6 +27,8 @@ namespace ngPlaybook.Web
             bundles.Add(new ScriptBundle("~/bundles/ng").Include(
                 "~/Scripts/angular.js",
                 "~/Scripts/angular-ui-router.js",
+                "~/Scripts/physicsjs-full.js",
+                "~/Scripts/jquery.knob.min.js",
 
                 "~/app/common/common.module.js",
                 "~/app/common/exceptionHandler.js",
@@ -41,6 +43,21 @@ namespace ngPlaybook.Web
                 "~/app/admin/admin.module.js",
                 "~/app/admin/admin.controller.js",
                 "~/app/admin/admin.routes.js",
+
+                "~/app/form/form.module.js",
+                "~/app/form/form.routes.js",
+                "~/app/form/editProfile.controller.js",
+
+                "~/app/physics/physics.module.js",
+                "~/app/physics/physics.routes.js",
+                "~/app/physics/physics.service.js",
+                "~/app/physics/movingObject.controller.js",
+                "~/app/physics/physicsBody.js",
+                "~/app/physics/knob.js",
+                "~/app/physics/physicsBehavior.js",
+                "~/app/physics/physicsCanvas.js",
+                "~/app/physics/physicsEdgeDetection.js",
+
 
                 "~/app/app.js",
                 "~/app/errorProne.controller.js"));
